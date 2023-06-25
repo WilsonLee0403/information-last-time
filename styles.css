@@ -1,39 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <link rel="stylesheet" href="styles.css">
-  <img width="250" src="https://scontent.fsgn12-1.fna.fbcdn.net/v/t39.30808-6/277131049_361576455863695_2391171769045898924_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SPXaIeQRTbgAX_My7ms&_nc_ht=scontent.fsgn12-1.fna&oh=00_AfAQxTBtCebEvkW2-xm0BSDwGUVLdWKwoQWTnLAa_yV2lw&oe=649989FC">
- <h1>
-  Trang in4 
- </h1>
- <form>
- <h2 id="fa">
- Facebook: 
- </h2>
- <button id="fakebook">
- <div>
- <a href="https://www.facebook.com/profile.php?id=100060340310576">Quân Lê</a>
- </div>
- </button>
- </form> 
- <form>
-  <h2 id="ins">
-    Instagram:
-  </h2>
-  <button id="instar">
-  <div>
-  <a href="https://www.instagram.com/lequan2403/">Lê Quân</a>
-  </div>
-  </button>
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color:brown;
+}
 
-  <div id="dive">
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+#fa{
+    color:dodgerblue;
+}
+
+#ins{
+    color:blueviolet;
+}
+
+div{
+    font-size: 3rem;
+    text-align: center;
     
-  </div>
-</form>
-</body>
-</html>
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+    background-color: darkgray;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:1mm black ;
+    position: relative;
+    padding: 30px 80px ;
+}
+
+#fakebook{
+    background-color: dodgerblue;
+}
+
+#instar{
+    background-color: darkorchid;
+}
+
+#dive{
+    margin-top: 25cm;
+}
