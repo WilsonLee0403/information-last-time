@@ -2,53 +2,37 @@ h1{
     font-size: 4rem;
     text-align: center;
     font-weight: bold;
-    text-decoration: underline;
-    color:brown;
+    
 }
+
+
 
 h2{
     font-size: 3rem;
     text-align: center;
 }
-#fa{
-    color:dodgerblue;
-}
 
-#ins{
-    color:blueviolet;
-}
 
-div{
-    font-size: 3rem;
-    text-align: center;
-    
-}
+
 img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-body{
-    background-color: darkgray;
-}
-
-button{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border:1mm black ;
-    position: relative;
-    padding: 30px 80px ;
 }
 
-#fakebook{
+button{
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 8px;
     background-color: dodgerblue;
 }
 
-#instar{
-    background-color: darkorchid;
+body{
+    background-color: bisque;
 }
 
-#dive{
-    margin-top: 25cm;
+
+div{
+    margin-top: 20cm;
 }
