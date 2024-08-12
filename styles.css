@@ -26,6 +26,8 @@ button{
     margin-right: auto; 
     margin-top: 8px;
     background-color: rgb(61, 43, 31) ;
+    height: 50px;
+    width: 300px;
 }
 
 body{
